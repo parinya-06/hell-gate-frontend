@@ -114,7 +114,7 @@ const Home = () => {
                 <div class="icon">
                   <i class="ion ion-person-add"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info</a>
+                <a href="/admin/manage-admin" class="small-box-footer">More info</a>
               </div>
             </div>
             <div class="col-lg-3 col-6">

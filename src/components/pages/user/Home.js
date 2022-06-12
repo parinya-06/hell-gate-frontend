@@ -16,6 +16,7 @@ const Home = () => {
 
     const loadData = (authtoken) => {
         //code
+        console.log('loadData user=',user);
         listBook(authtoken)
             .then((res) => {
                 //code
@@ -37,7 +38,8 @@ const Home = () => {
             const listBuy = [{
                 userId:user._id,
                 username: user.username,
-                book: data
+                book: data.title,
+                price: data.price
             }]
             console.log('listBuy=',user);
             buyBook(listBuy)

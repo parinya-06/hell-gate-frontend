@@ -26,6 +26,6 @@ export const updateBook = async (id,value) =>{
 
 export const buyBook = async (value) =>{
   console.log('buyBook=',value);
-  return await axios.post("http://localhost:5000/books/jjj", value);
+  return await axios.post("http://localhost:5000/historybook", value);
 }
   
